@@ -1,7 +1,7 @@
 #!/usr/local/bin env python
-from forbesqotd import forbes
+from forbesqotd import qotd
 
 
-app = forbes()
+app = qotd.forbes()
 print(app.get_quote())
-print("By: ",app.get_by())
+print"By: ",app.get_by()

@@ -19,7 +19,7 @@ with custom_open('requirements.txt') as f:
 
 setup(
     name='forbesqotd',
-    version='1.0',
+    version='1.2',
     description='QOTD on Forbes Welcome page',
     long_description=long_d,
     url='https://github.com/appi147/forbes-qotd',

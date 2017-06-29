@@ -23,8 +23,8 @@ Usage
 
 Package has two methods which returns quote and its author::
 
-    from forbesqotd import forbes
-    app = forbes()
+    from forbesqotd import qotd
+    app = qotd.forbes()
     quote = forbes.get_quote()
     author = forbes.get_by()
 
