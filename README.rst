@@ -15,7 +15,7 @@ Installation
 
 Install it by pip::
     
-    pip install forbes-qotd
+    pip install forbesqotd
 
 -----
 Usage
@@ -23,7 +23,7 @@ Usage
 
 Package has two methods which returns quote and its author::
 
-    from forbes-qotd import forbes
+    from forbesqotd import forbes
     app = forbes()
     quote = forbes.get_quote()
     author = forbes.get_by()

@@ -1,5 +1,5 @@
-#!/usr/local/bin env python3
-from forbes-qotd import forbes
+#!/usr/local/bin env python
+from forbesqotd import forbes
 
 
 app = forbes()
