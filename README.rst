@@ -1,4 +1,4 @@
-.. highlight:: python
+
 .. code-block:: python
    :emphasize-lines: 26,29
 
