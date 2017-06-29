@@ -18,7 +18,7 @@ with custom_open('requirements.txt') as f:
     long_d = f.read()
 
 setup(
-    name='forbes-qotd',
+    name='forbesqotd',
     version='1.0',
     description='QOTD on Forbes Welcome page',
     long_description=long_d,
