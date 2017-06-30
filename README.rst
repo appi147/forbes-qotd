@@ -25,6 +25,6 @@ Package has two methods which returns quote and its author::
 
     from forbesqotd import qotd
     app = qotd.forbes()
-    quote = forbes.get_quote()
-    author = forbes.get_by()
+    quote = app.get_quote()
+    author = app.get_by()
 
