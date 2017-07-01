@@ -14,12 +14,12 @@ def custom_open(filename):
 with custom_open('requirements.txt') as f:
     contents = f.read()
 
-with custom_open('requirements.txt') as f:
+with custom_open('README.rst') as f:
     long_d = f.read()
 
 setup(
     name='forbesqotd',
-    version='1.2',
+    version='2.0',
     description='QOTD on Forbes Welcome page',
     long_description=long_d,
     url='https://github.com/appi147/forbes-qotd',
