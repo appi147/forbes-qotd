@@ -9,5 +9,5 @@ install:
 # command to run tests
 script:
   - if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then cd test2; fi
-  - if [[ $TRAVIS_PYTHON_VERSION == 3.5 ]]; then cd test2; fi
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.5 ]]; then cd test3; fi
   - python -m unittest discover
