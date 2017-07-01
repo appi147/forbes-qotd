@@ -4,6 +4,6 @@ python:
 # command to install dependencies
 install:
   - python setup.py install
-  - apt install python-pytest
+  - apt-get install python-pytest
 # command to run tests
 script: pytest
